@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [mavenJenkinsPack]">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="tests" name="Chrome2(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="mavenJenkinsPack.MavenClassProject">
+        <methods>
+          <include name="gridMethod"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- mavenJenkinsPack.MavenClassProject -->
+    </classes>
+  </test> <!-- Chrome2(failed) -->
+  <test parallel="tests" name="Chrome3(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="mavenJenkinsPack.MavenClassProject">
+        <methods>
+          <include name="gridMethod"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- mavenJenkinsPack.MavenClassProject -->
+    </classes>
+  </test> <!-- Chrome3(failed) -->
+  <test parallel="tests" name="Chrome1(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="mavenJenkinsPack.MavenClassProject">
+        <methods>
+          <include name="gridMethod"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- mavenJenkinsPack.MavenClassProject -->
+    </classes>
+  </test> <!-- Chrome1(failed) -->
+</suite> <!-- Failed suite [mavenJenkinsPack] -->
