@@ -1,12 +1,13 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
 <suite name="mavenJenkinsPack" parallel ="tests">
 <test name="Chrome1">
-   <parameter name="browser" value="chrome" />
+   
       <classes>
          <class name="mavenJenkinsPack.MavenClassProject" />
       </classes>
    </test>
-<test name="Chrome2">
+<!-- <test name="Chrome2">
+<parameter name="browser" value="chrome" />
   <parameter name="browser" value="chrome" />
       <classes>
          <class name="mavenJenkinsPack.MavenClassProject" />
@@ -18,7 +19,7 @@
          <class name="mavenJenkinsPack.MavenClassProject" />
       </classes>
    </test>
- 
+  -->
 <!-- test name="TestA">
     <classes>
         <class name="suiteA.TestA" ></class>  
